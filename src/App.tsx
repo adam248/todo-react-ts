@@ -50,7 +50,28 @@ function App() {
       <br></br>
       <h2>To Do List App</h2>
       <br></br>
+    {/* Update Task*/}
+    <div className="row">
+      <div className="col">
+        <input className="form-control form-control-lg"/>
+      </div>
+      <div className="col-auto">
+        <button className="btn btn-lg btn-success">Update Task</button>
+        <button className="btn btn-lg btn-warning">Cancel</button>
+      </div>
+    </div>
 
+
+    {/* Add Task*/}
+    <div className="row">
+      <div className="col">
+        <input className="form-control form-control-lg"/>
+      </div>
+      <div className="col-auto">
+        <button className="btn btn-lg btn-success">Add Task</button>
+      </div>
+    </div>
+<br />
     {/* Display ToDos*/}
     {toDo && toDo.length ? '' : 'No Tasks...'}
 
